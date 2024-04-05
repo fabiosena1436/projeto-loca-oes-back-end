@@ -1,4 +1,4 @@
-import multer from "multer.js";
+import multer from "multer";
 import { v4 } from "uuid";
 import { extname, resolve } from 'path'
 import { request } from "http";
