@@ -1,5 +1,5 @@
 import { Router } from "express";
-import multer from "multer.js";
+import multer from "multer";
 import multerConfig from "./config/multer";
 
 import ProductController from "./app/controllers/ProductController";
@@ -8,7 +8,7 @@ import CategoryController from "./app/controllers/CategoryController";
 import UserController from "./app/controllers/UserController";
 import OrderController from "./app/controllers/OrderController";
 
-import authMiddleware from "./app/middlewares/auth.js";
+import authMiddleware from "./app/middlewares/auth";
 
 const upload = multer(multerConfig);
 
