@@ -1,6 +1,6 @@
 import { Router } from "express";
-import multer from "multer";
-import multerConfig from "./config/multer";
+import multer from "multer.js";
+import multerConfig from "./config/multer.js";
 
 import ProductController from "./app/controllers/ProductController";
 import SessionController from "./app/controllers/SessionController";
