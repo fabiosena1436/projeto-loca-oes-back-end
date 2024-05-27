@@ -5,7 +5,7 @@ import Product from "../app/models/Products";
 import User from "../app/models/User";
 import Category from "../app/models/Category";
 
-import configDatabase from '../config/database'
+// import configDatabase from '../config/database'
 
 
 const models = [User, Product, Category]
@@ -27,7 +27,7 @@ class Database {
 
     mongo() {
         this.mongoConnection = mongoose.connect(
-            'mongodb://mongo:bRNPOMEBdckIMeBEsbplljdsoVOKWvzJ@monorail.proxy.rlwy.net:30821',
+            'mongodb://mongo:PzHcQYANYQovznkBrZspDdthDhZTmnyr@monorail.proxy.rlwy.net:11679',
             
         )
     }
